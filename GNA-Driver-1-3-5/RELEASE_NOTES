@@ -1,0 +1,47 @@
+GNA Driver Module for Linux
+
+Version:
+ - 1.3.5
+
+Contents:
+ - Driver based on upstream V3 patch series
+ - GNA Linux Driver Module sources for out-of-source building.
+   - Including sources and sample build & installation script
+ - license.txt
+ - This file.
+   
+Hardware Compatibility:
+ - The GNA CPU offload and acceleration capability is supported by the following Intel platforms:
+   - (GNA 0.9):
+     - Cannon Lake
+   - (GNA 1.0):
+     - Gemini Lake
+     - Elkhart Lake
+     - Ice Lake
+   - (GNA 2.0):
+     - Jasper Lake
+     - Tiger Lake
+     - Rocket Lake
+   - (GNA 3.0):
+     - Alder Lake
+     - Raptor Lake
+   - (GNA 3.5):
+     - Meteor Lake
+
+Software Compatibility:
+ - Supported operating system:
+   - GNA driver source code can be applied to Linux kernel versions 5.4 - 5.12
+   - installation instructions intended for Ubuntu 18.04 LTS
+
+ChangeLog:
+1.3.0 -> 1.3.1:
+  gna driver ported back to kernel v5.4
+  Fix on fail path when 'misc_register' fails.
+1.3.1 -> 1.3.2:
+  pm runtime autosuspend delay set back to 2000ms
+1.3.2 -> 1.3.3:
+  MeteorLake HWID added
+1.3.3 -> 1.3.4:
+  gna QoS compute requests added
+1.3.4 -> 1.3.5:
+  fix: gna 3.0 HW increased to have up to 8192 layers
