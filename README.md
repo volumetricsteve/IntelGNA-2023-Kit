@@ -7,13 +7,13 @@ This is supposed to be built with CMake but a bunch of that seemed broken/more c
 
 While I've seen exactly zero data to support this, apparently, GNA devices are basicially super "low power" matrix multipliers (low power compared to what?) - seems like that could be useful, in theory.... maybe.
 
-      ___  
-   .-'   `'-. 
-  /         \ 
- |           |
- |           |
-  \         / 
-   `-.___.-'
+            ___  
+         .-'   `'-. 
+        /         \ 
+       |           |
+       |           |
+        \         / 
+         `-.___.-'
 
 This derpy pumpkin is brought to you by ChatGPT-4 after many, many, comically horrible attempts.
 
